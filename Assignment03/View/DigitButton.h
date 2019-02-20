@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DigitButton.h
 //  Assignment03
 //
 //  Created by JihoonPark on 14/11/2018.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface DigitButton : UIButton
 
 @end
 
+NS_ASSUME_NONNULL_END

@@ -8,24 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		7AC40F07219BBDD800F869DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC40F06219BBDD800F869DE /* AppDelegate.m */; };
-		7AC40F0A219BBDD800F869DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC40F09219BBDD800F869DE /* ViewController.m */; };
 		7AC40F0D219BBDD800F869DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AC40F0B219BBDD800F869DE /* Main.storyboard */; };
 		7AC40F0F219BBDD900F869DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AC40F0E219BBDD900F869DE /* Assets.xcassets */; };
 		7AC40F12219BBDD900F869DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AC40F10219BBDD900F869DE /* LaunchScreen.storyboard */; };
 		7AC40F15219BBDD900F869DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC40F14219BBDD900F869DE /* main.m */; };
+		7AC40F2B219BBE6100F869DE /* Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC40F1E219BBE6000F869DE /* Expression.m */; };
+		7AC40F2C219BBE6100F869DE /* StateTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC40F21219BBE6000F869DE /* StateTransition.m */; };
+		7AC40F2D219BBE6100F869DE /* Operator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC40F23219BBE6000F869DE /* Operator.m */; };
+		7AC40F2E219BBE6100F869DE /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC40F24219BBE6000F869DE /* Engine.m */; };
+		7AC40F2F219BBE6100F869DE /* Token.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC40F25219BBE6100F869DE /* Token.m */; };
+		7AC40F32219BBE8A00F869DE /* AdvancedCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC40F31219BBE8A00F869DE /* AdvancedCalculatorViewController.m */; };
+		7AC40F35219BBEA200F869DE /* DigitButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC40F34219BBEA200F869DE /* DigitButton.m */; };
+		7AC40F38219BBEB300F869DE /* ExtendedOperatorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC40F37219BBEB300F869DE /* ExtendedOperatorButton.m */; };
+		7AC40F3B219BBEC100F869DE /* ArithmeticOperatorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC40F3A219BBEC100F869DE /* ArithmeticOperatorButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7AC40F02219BBDD800F869DE /* Assignment03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AC40F05219BBDD800F869DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7AC40F06219BBDD800F869DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7AC40F08219BBDD800F869DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7AC40F09219BBDD800F869DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7AC40F0C219BBDD800F869DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AC40F0E219BBDD900F869DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AC40F11219BBDD900F869DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AC40F13219BBDD900F869DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AC40F14219BBDD900F869DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AC40F1E219BBE6000F869DE /* Expression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Expression.m; sourceTree = "<group>"; };
+		7AC40F1F219BBE6000F869DE /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		7AC40F20219BBE6000F869DE /* Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expression.h; sourceTree = "<group>"; };
+		7AC40F21219BBE6000F869DE /* StateTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateTransition.m; sourceTree = "<group>"; };
+		7AC40F22219BBE6000F869DE /* Token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Token.h; sourceTree = "<group>"; };
+		7AC40F23219BBE6000F869DE /* Operator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operator.m; sourceTree = "<group>"; };
+		7AC40F24219BBE6000F869DE /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		7AC40F25219BBE6100F869DE /* Token.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Token.m; sourceTree = "<group>"; };
+		7AC40F26219BBE6100F869DE /* ButtonClear_Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonClear_Transition.h; sourceTree = "<group>"; };
+		7AC40F27219BBE6100F869DE /* TokenType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TokenType.h; sourceTree = "<group>"; };
+		7AC40F28219BBE6100F869DE /* Operator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operator.h; sourceTree = "<group>"; };
+		7AC40F29219BBE6100F869DE /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
+		7AC40F2A219BBE6100F869DE /* StateTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateTransition.h; sourceTree = "<group>"; };
+		7AC40F30219BBE8A00F869DE /* AdvancedCalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvancedCalculatorViewController.h; sourceTree = "<group>"; };
+		7AC40F31219BBE8A00F869DE /* AdvancedCalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvancedCalculatorViewController.m; sourceTree = "<group>"; };
+		7AC40F33219BBEA200F869DE /* DigitButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DigitButton.h; sourceTree = "<group>"; };
+		7AC40F34219BBEA200F869DE /* DigitButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DigitButton.m; sourceTree = "<group>"; };
+		7AC40F36219BBEB300F869DE /* ExtendedOperatorButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtendedOperatorButton.h; sourceTree = "<group>"; };
+		7AC40F37219BBEB300F869DE /* ExtendedOperatorButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtendedOperatorButton.m; sourceTree = "<group>"; };
+		7AC40F39219BBEC100F869DE /* ArithmeticOperatorButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArithmeticOperatorButton.h; sourceTree = "<group>"; };
+		7AC40F3A219BBEC100F869DE /* ArithmeticOperatorButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArithmeticOperatorButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +85,60 @@
 		7AC40F04219BBDD800F869DE /* Assignment03 */ = {
 			isa = PBXGroup;
 			children = (
+				7AC40F1D219BBDF300F869DE /* Controller */,
+				7AC40F1C219BBDEE00F869DE /* View */,
+				7AC40F1B219BBDE300F869DE /* Model */,
 				7AC40F05219BBDD800F869DE /* AppDelegate.h */,
 				7AC40F06219BBDD800F869DE /* AppDelegate.m */,
-				7AC40F08219BBDD800F869DE /* ViewController.h */,
-				7AC40F09219BBDD800F869DE /* ViewController.m */,
-				7AC40F0B219BBDD800F869DE /* Main.storyboard */,
 				7AC40F0E219BBDD900F869DE /* Assets.xcassets */,
 				7AC40F10219BBDD900F869DE /* LaunchScreen.storyboard */,
 				7AC40F13219BBDD900F869DE /* Info.plist */,
 				7AC40F14219BBDD900F869DE /* main.m */,
 			);
 			path = Assignment03;
+			sourceTree = "<group>";
+		};
+		7AC40F1B219BBDE300F869DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AC40F29219BBE6100F869DE /* Action.h */,
+				7AC40F26219BBE6100F869DE /* ButtonClear_Transition.h */,
+				7AC40F1F219BBE6000F869DE /* Engine.h */,
+				7AC40F24219BBE6000F869DE /* Engine.m */,
+				7AC40F20219BBE6000F869DE /* Expression.h */,
+				7AC40F1E219BBE6000F869DE /* Expression.m */,
+				7AC40F28219BBE6100F869DE /* Operator.h */,
+				7AC40F23219BBE6000F869DE /* Operator.m */,
+				7AC40F2A219BBE6100F869DE /* StateTransition.h */,
+				7AC40F21219BBE6000F869DE /* StateTransition.m */,
+				7AC40F22219BBE6000F869DE /* Token.h */,
+				7AC40F25219BBE6100F869DE /* Token.m */,
+				7AC40F27219BBE6100F869DE /* TokenType.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AC40F1C219BBDEE00F869DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AC40F0B219BBDD800F869DE /* Main.storyboard */,
+				7AC40F33219BBEA200F869DE /* DigitButton.h */,
+				7AC40F34219BBEA200F869DE /* DigitButton.m */,
+				7AC40F36219BBEB300F869DE /* ExtendedOperatorButton.h */,
+				7AC40F37219BBEB300F869DE /* ExtendedOperatorButton.m */,
+				7AC40F39219BBEC100F869DE /* ArithmeticOperatorButton.h */,
+				7AC40F3A219BBEC100F869DE /* ArithmeticOperatorButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AC40F1D219BBDF300F869DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AC40F30219BBE8A00F869DE /* AdvancedCalculatorViewController.h */,
+				7AC40F31219BBE8A00F869DE /* AdvancedCalculatorViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +211,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AC40F0A219BBDD800F869DE /* ViewController.m in Sources */,
+				7AC40F2F219BBE6100F869DE /* Token.m in Sources */,
+				7AC40F2C219BBE6100F869DE /* StateTransition.m in Sources */,
+				7AC40F38219BBEB300F869DE /* ExtendedOperatorButton.m in Sources */,
+				7AC40F2B219BBE6100F869DE /* Expression.m in Sources */,
 				7AC40F15219BBDD900F869DE /* main.m in Sources */,
+				7AC40F32219BBE8A00F869DE /* AdvancedCalculatorViewController.m in Sources */,
 				7AC40F07219BBDD800F869DE /* AppDelegate.m in Sources */,
+				7AC40F3B219BBEC100F869DE /* ArithmeticOperatorButton.m in Sources */,
+				7AC40F35219BBEA200F869DE /* DigitButton.m in Sources */,
+				7AC40F2D219BBE6100F869DE /* Operator.m in Sources */,
+				7AC40F2E219BBE6100F869DE /* Engine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
